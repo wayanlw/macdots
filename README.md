@@ -11,29 +11,29 @@
 ## Terminal
 
 - In apple by default zsh is the main shell.
-  - install iterm2 and change the keymappings via  `Preferences > profile > keys > keymapping > presets > natural keys`
-  - Instal [ohmyzsh](https://ohmyz.sh)
-- install tmux and copy the [.tmux.conf](https://github.com/wayanlw/dotfiles/blob/master/.tmux.conf) to the home folder.
+  - install [iterm2](https://iterm2.com/) and change the keymappings via  `Preferences > profile > keys > keymapping > presets > natural keys`
+  - Install [ohmyzsh](https://ohmyz.sh)
+- install Tmux and copy the [.tmux.conf](https://github.com/wayanlw/dotfiles/blob/master/.tmux.conf) to the home folder.
 - install vim, install [vimplug](https://github.com/junegunn/vim-plug) and copy the [.vimrc](https://github.com/wayanlw/dotfiles/blob/master/.vimrc)
 
 ## Other Software
 
 - Install [brave](http://brave.com) browser and configure it for maximum privacy.
-- install vscode
-- install [rectangle](https://rectangleapp.com/). This enables managing windows easily with a keyboard, similar to windows. Assign `command+shift+wer` for full screen, left-split and right-split.
-- install [alt-tab](https://alt-tab-macos.netlify.app/).
+- Install [vscode](https://code.visualstudio.com/)
+- Install [rectangle](https://rectangleapp.com/). This enables managing windows easily with a keyboard, similar to windows. Assign `command+shift+wer` for full screen, left-split and right-split.
+- Install [alt-tab](https://alt-tab-macos.netlify.app/).
   - This provides windows-like alt-tab functionality. ie. If there are different windows of the same app, it shows them separately.
   - Change the view mode to windows 10
   - Remap the keyboard shortcut to `cmd+tab` and `cmd + ``
 - Install [cheatsheet](https://www.mediaatelier.com/CheatSheet/). This enables the user to view and access all keyboard shortcuts for an app by holding the `Cmd` key.
-- install skim (pdf reader) - Easier annotation
+- Install skim (pdf reader) - Easier annotation
 - Install [Maccy](https://github.com/p0deje/Maccy). This is a clipboard manager with history. Enable automatic pasting when selected, instead of copying the selection to the clipboard.
 - Install [appcleaner](https://freemacsoft.net/appcleaner/) - Deletes config files etc. installed with an app
 
 ## Menubar Apps
 
 - Install [dozer](https://github.com/Mortennn/Dozer). This optimizes the menu bar space. [ [Bartender](https://www.macbartender.com) is a better app than this. However, it is a paid app]
-- install [stats](https://github.com/exelban/stats) - Menu bar performance stats monitor. [ [istatmenu](https://bjango.com/mac/istatmenus/) is a better alternative. But it is a paid software.]
+- Install [stats](https://github.com/exelban/stats) - Menu bar performance stats monitor. [ [istatmenu](https://bjango.com/mac/istatmenus/) is a better alternative. But it is a paid software.]
 - Install [clean-me](https://github.com/Kevin-De-Koninck/Clean-Me). This cleans the caches etc. which are temp files. Can clean about 1.5 GB
 - Install [Latest](https://github.com/mangerlahn/latest). This can check for updates for all installed apps at once.
 - Install [keepassxc](https://keepassxc.org/download/#mac). Best password manager.
@@ -44,9 +44,9 @@
 
 - Dock Settings
   - Move the Dock to the left
-  - Adjust the dock autohide timing  and other settings with [tinker tool](http://www.bresink.com/osx/0TinkerTool/download.php)
+  - Adjust the dock autohide timing  and other settings with [Tinker Tool](http://www.bresink.com/osx/0TinkerTool/download.php)
 - Trackpad configurations
-  - enable three-finger drag (in accessibility settings)
+  - Enable three-finger drag (in accessibility settings)
   - Increase tracking speed
   - Enable tap to click (trackpad settings)
 - Activate hot-corners
@@ -66,7 +66,7 @@ Right-click on the desktop and enable stacks
   - Preferences > keyboard > shortcuts > enable "use keyboard navigation to move focus between controls". This enables traversing through controls easily with the tab key.
 
 
-- Tinker Tool
+- [Tinker Tool](http://www.bresink.com/osx/TinkerTool.html)
   - Finder > Show hidden files
   - Dock options > Disable animations and delay
   - Launchpad > disable all
@@ -76,7 +76,7 @@ Right-click on the desktop and enable stacks
       - To revert from command line `defaults write -g ApplePressAndHoldEnabled -bool true`
         - [source](https://www.howtogeek.com/267463/how-to-enable-key-repeating-in-macos/)
     - Turn off `animate opening windows`
-  - applications > Don't ask for backup disks. This stops mac from asking whether it needs to use the plugged-in drive as a time machine backup, every time you plug in an external drive.
+  - Applications > Don't ask for backup disks. This stops mac from asking whether it needs to use the plugged-in drive as a time machine backup, every time you plug in an external drive.
 
 - [Terminal Commands](https://www.youtube.com/watch?v=9Lz7jliEvGg&t=1481s)
   - Screenshot format (can change JPG to PNG, TIFF, PDF)
@@ -99,8 +99,8 @@ Right-click on the desktop and enable stacks
 
 ## Finder
 
-- make folders come on top ( Preferences >> advanced )
-- show all file name extensions
+- Make folders come on top ( Preferences >> advanced )
+- Show all file name extensions
 - Show hidden files in finder - `SHIFT + COMMAND + PERIOD `
 - Status bar
   - Finder > View > Show Path Bar
@@ -133,13 +133,13 @@ Right-click on the desktop and enable stacks
   - Shift+Command+o > Documents
   - Shift+Command+p > show file preview on the right side
   - Other
-- in multi-column view, change column width whilst holding `OPTION` to resize all columns equally
+- In multi-column view, change column width whilst holding `OPTION` to resize all columns equally
 
 ## Other Tips
 
 - Drag windows under the current windows while holding the `COMMAND` key > then the below window will not come to the top. It will move behind the active window
 - Show a custom message on the lock screen. eg. Have your mobile number or email in here. So if you left your mac somewhere and if a good samaritan finds it, they can inform you.
-  - preferences > security and privacy > (unlock admin) > set lock message
+  - Preferences > security and privacy > (unlock admin) > set lock message
 - Cancel Dialog boxes with `COMMAND + PERIOD`
 - Use "Photo Booth" to check how you look before zoom meetings. Alternative is [handmirror](https://handmirror.app/)
 - Printing
@@ -147,9 +147,9 @@ Right-click on the desktop and enable stacks
   - When using the QuickLook, hold the `SPACE` key. When you let go of it, QuickLook will close automatically. Quite useful if looking at multiple files quickly.
   - When pasting text paste with `Shift+Option+Command+V` to paste as text
 - Menu bar (System tray)
-  - hold the `COMMAND` key and drag and drop menu bar icons outside to remove them. Can only be done for some icons.
+  - Hold the `COMMAND` key and drag and drop menu bar icons outside to remove them. Can only be done for some icons.
 - Text Editing
-  - halfway typing a word and then pressing `F5` > shows a drop-down of word auto-completion
+  - Halfway typing a word and then pressing `F5` > shows a drop-down of word auto-completion
 - Force quitting apps
   - Force quit option 1 - Use Activity Monitor
   - Force quit option 2 - CMD+OPTION+ESC
@@ -175,7 +175,7 @@ Right-click on the desktop and enable stacks
 - Right-click on the vertical line within the deck to quickly get to Dock Preferences
 - Hold down "Shift" and drag the vertical line to move the Dock
 - In dock preferences, untick `show recent apps in the dock`
-- enable auto-hide > But change the animation and delay settings using the tinker tool
+- Enable auto-hide > But change the animation and delay settings using the tinker tool
 - Opt+Cmd+D - Toggles dock show/hide
 - Add AirDrop to Dock (a) go to Finder, (b) press Shift+Cmd+G, (c) paste this: /System/Library/CoreServices/Finder.app/Contents/Applications/ (d) drag AirDrop icon into Dock
 
