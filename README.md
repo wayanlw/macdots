@@ -358,11 +358,11 @@ Do a web search with <application name> mac app to find details. Almost all of t
 - [awesome mac apps](https://github.com/jaywcjlove/awesome-mac)
 - [Mac apps list](https://github.com/serhii-londar/open-source-mac-os-apps)
 - [video by Jeffsu](https://www.youtube.com/watch?v=-xXc7qeiC8I)
-- [150+ Mac Tips and Tricks - by Snazzy Labs]https://www.youtube.com/watch?v=9Lz7jliEvGg&t=69s
+- [150+ Mac Tips and Tricks - by Snazzy Labs](https://www.youtube.com/watch?v=9Lz7jliEvGg&t=69s)
 - [digital inspiration](https://www.labnol.org/software/essential-mac-utilities/9479/)
-- https://www.youtube.com/watch?v=dPddVTRBScw
-- https://www.youtube.com/watch?v=o2RRDS2tIoY
-- https://www.youtube.com/watch?v=0DSWeFLgMMI
-- https://www.youtube.com/watch?v=oKXApo3nuHY
+- [10 Next-Level Mac Apps You Didn't See Coming (Free & Paid)](https://www.youtube.com/watch?v=dPddVTRBScw)
+- [Unbelievably Useful Mac Apps](https://www.youtube.com/watch?v=o2RRDS2tIoY)
+- [Unbelievably Useful Mac Apps #2](https://www.youtube.com/watch?v=0DSWeFLgMMI)
+- [Unbelievably Useful Mac Apps #3](https://www.youtube.com/watch?v=oKXApo3nuHY)
 
 
