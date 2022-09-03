@@ -6,7 +6,7 @@
 
 ## Keyboard
 
-- Install [karabiner](karabiner-elements.pqrs.org) and download the Karibiner config from this repo. Load the config. This will enable most of the keyboard configs in [Capsy](https://github.com/wayanlw/Capsy)
+- Install [karabiner](https://karabiner-elements.pqrs.org) and download the Karibiner config from this repo. Load the config. This will enable most of the keyboard configs in [Capsy](https://github.com/wayanlw/Capsy)
 
 ## Terminal
 
