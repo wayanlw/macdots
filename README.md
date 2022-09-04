@@ -1,5 +1,8 @@
 # WW Macbook Setup
 
+This is a summary guide for my config. If you want to read a full article about the mac config read [this](https://github.com/wayanlw/articles/blob/main/This%20is%20how%20I%20would%20use%20a%20Mac%20if%20I%20had%20one.%20A%20Power-User's%20Guide%20to%20macOS..md).
+
+
 ## Base Installation
 
 - First install [Homebrew](https://brew.sh/). This enables easier installation of the rest of the apps.
@@ -20,7 +23,9 @@
 
 - Install [brave](http://brave.com) browser and configure it for maximum privacy.
 - Install [vscode](https://code.visualstudio.com/)
+- Install [Alfred](https://www.alfredapp.com/) with power pack. Alternative is [Raycast](https://www.raycast.com/) or [Space Launcher](https://spacelauncherapp.com/) is another alternative launcher where you can launch apps with the Spacebar. However, since I implemented this functionality with my Karabiner config.
 - Install [rectangle](https://rectangleapp.com/). This enables managing windows easily with a keyboard, similar to windows. Assign `command+shift+wer` for full screen, left-split and right-split.
+- Install [Swish](https://highlyopinionated.co/swish/) for window management using the touchpad. It is a paid app. But one of the best window managers for mac. Utilizes gestures to manage the windows. Alternatives would be [penc](https://deniz.co/penc/).
 - Install [alt-tab](https://alt-tab-macos.netlify.app/).
   - This provides windows-like alt-tab functionality. ie. If there are different windows of the same app, it shows them separately.
   - Change the view mode to windows 10
@@ -28,28 +33,35 @@
 - Install [cheatsheet](https://www.mediaatelier.com/CheatSheet/). This enables the user to view and access all keyboard shortcuts for an app by holding the `Cmd` key.
 - Install skim (pdf reader) - Easier annotation
 - Install [Maccy](https://github.com/p0deje/Maccy). This is a clipboard manager with history. Enable automatic pasting when selected, instead of copying the selection to the clipboard.
+- Install [KeepassXC](https://keepassxc.org/download/#mac) in the OS and Bitwarden in the browser
 - Install [appcleaner](https://freemacsoft.net/appcleaner/) - Deletes config files etc. installed with an app
+- Install [Skim](https://skim-app.sourceforge.io/) as the PDF Reader. Offers annotation.
 
-## Menubar Apps
+
+## Menubar
 
 - Install [dozer](https://github.com/Mortennn/Dozer). This optimizes the menu bar space. [ [Bartender](https://www.macbartender.com) is a better app than this. However, it is a paid app]
 - Install [stats](https://github.com/exelban/stats) - Menu bar performance stats monitor. [ [istatmenu](https://bjango.com/mac/istatmenus/) is a better alternative. But it is a paid software.]
 - Install [clean-me](https://github.com/Kevin-De-Koninck/Clean-Me). This cleans the caches etc. which are temp files. Can clean about 1.5 GB
 - Install [Latest](https://github.com/mangerlahn/latest). This can check for updates for all installed apps at once.
-- Install [keepassxc](https://keepassxc.org/download/#mac). Best password manager.
-- Install [swish](https://highlyopinionated.co/swish/). It is a paid app. But one of the best window managers for mac. Utilizes gestures to manage the windows. Alternatives would be [penc](https://deniz.co/penc/).
 
 
 ## Configurations
 
-- Dock Settings
+- Dock
   - Move the Dock to the left
   - Adjust the dock autohide timing  and other settings with [Tinker Tool](http://www.bresink.com/osx/0TinkerTool/download.php)
-- Trackpad configurations
+- Trackpad
   - Enable three-finger drag (in accessibility settings)
   - Increase tracking speed
   - Enable tap to click (trackpad settings)
-- Activate hot-corners
+- Keyboard
+  - Enable key repeating. Before this config, when a key is held, special characters instead of key repeat. Can use the tinker tool or command-line method](https://www.howtogeek.com/267463/how-to-enable-key-repeating-in-macos/) ie. `defaults write -g ApplePressAndHoldEnabled -bool false`. To revert to default do `defaults write -g ApplePressAndHoldEnabled -bool true`
+  - Shorten the `delay until repeat keys`. This increases the repetition speed.
+  - Enable `F1`, and `F2` keys without pressing the `fn` keys (in Preferences > keyboard). By default, the extra functionality such as brightness, and volume are activated with Function keys.
+  - Swap the function and Control keys. If you are coming from windows, this would significantly help. `Keyboard > Modifier keys > Swap Fn and Ctrl keys`
+  - Preferences > keyboard > shortcuts > enable "use keyboard navigation to move focus between controls". This enables traversing through controls easily with the tab key.
+- hot-corners
   - `Desktop and screensavers > screen saver > hot corner`
   - If you only want to activate it when a modifier is pressed, in the dropdown menu select the action while holding the modifier. [details](https://youtu.be/9Lz7jliEvGg?t=2011)
 - Accessibility > reduce motion
@@ -57,14 +69,7 @@
 - Enable night shift in display
 - Disable truetone in display settings
 - Change to Scaled > More space (This makes text smaller, but significantly improves productivity due to more space.
-Right-click on the desktop and enable stacks
-- Keyboard
-  - Enable key repeating. Before this config, when a key is held, special characters instead of key repeat. Can use the tinker tool or command-line method](https://www.howtogeek.com/267463/how-to-enable-key-repeating-in-macos/) ie. `defaults write -g ApplePressAndHoldEnabled -bool false`. To revert to default do `defaults write -g ApplePressAndHoldEnabled -bool true`
-  - Shorten the `delay until repeat keys`. This increases the repetition speed.
-  - Enable `F1`, and `F2` keys without pressing the `fn` keys (in Preferences > keyboard). By default, the extra functionality such as brightness, and volume are activated with Function keys.
-  - Swap the function and Control keys. If you are coming from windows, this would significantly help. `Keyboard > Modifier keys > Swap Fn and Ctrl keys`
-  - Preferences > keyboard > shortcuts > enable "use keyboard navigation to move focus between controls". This enables traversing through controls easily with the tab key.
-
+- Right-click on the desktop and enable stacks
 
 - [Tinker Tool](http://www.bresink.com/osx/TinkerTool.html)
   - Finder > Show hidden files
@@ -188,54 +193,39 @@ Do a web search with <application name> mac app to find details. Almost all of t
   - unarchiver
   - kaka
   - betterzip (PAID) > this allows looking at the archives using QuickLook. (enable in the app settings)
-
 - video player
   - iina
-
 - RSS Raadrs
   - [Net News Wire](https://netnewswire.com/)
-
 - Pdf reader
   - Skim
-
 - Create apps from any website with their favicon as the icon
   - Fluid - Create apps from any website.
-
 - Media downloader
   - Downie (PAID)
-
 - Conky like desktop widget
   - [uebersicht](https://tracesof.net/uebersicht/). Get widgets from [here](https://tracesof.net/uebersicht-widgets/)
-
-
 - Status Bar
-  - [Dozer](https://github.com/Mortennn/Dozer/)
-    - alternative: [Hidden Bar](https://github.com/dwarvesf/hidden)
-    - alternative: Bartender (PAID)
-  - Stats - display system stats
-    - alternative: istat menus
-
+	- [Dozer](https://github.com/Mortennn/Dozer/)
+	- alternative: [Hidden Bar](https://github.com/dwarvesf/hidden)
+	- alternative: Bartender (PAID)
+	- Stats - display system stats
+	- alternative: istat menus
 - Launcher
   - [Raycast](https://www.raycast.com/)
     - better paid alternative: [Alfred](https://www.alfredapp.com/) (PAID)
-
 - Drop files and folders
   - [Drop zone (Paid)](https://aptonic.com/)
-
 - Clean unwanted apps
   - [clean-me](https://github.com/Kevin-De-Koninck/Clean-Me)
   - [App Cleaner](https://freemacsoft.net/appcleaner/)
   - [onyx](https://www.titanium-software.fr/en/onyx.html)
-
 - Mouse tools
   - mos
-
 - Disk Usage Monitor
   - [disk inventory x](http://www.derlien.com/)
-
 - OCR
   - Text sniper(PAID)
-
 - Window Management
   - Rectangle (Free) - https://rectangleapp.com/
   - [penc](https://deniz.co/penc/)
@@ -243,61 +233,42 @@ Do a web search with <application name> mac app to find details. Almost all of t
   - magnet (PAID)
   - Moon (Paid) - https://manytricks.com/moom/
   - [swish](https://highlyopinionated.co/swish/)
-
 - Tiling Window Manager
   - Amethyst
   - Yabai with Shkd —> video josh Medeski - blazing fast window management
   - Space launcher for Mac OS. —> same video as above
-
 - Mac customization (Eg. improve launcher bar. Refer https://www.youtube.com/watch?v=h2xoRkzjQoc)
   - Tinker tool - https://www.bresink.com/osx/TinkerTool.html
-
 - Clipboard Manager
   - [Maccy (Free)](https://github.com/p0deje/Maccy)
   - alternative -[Copy Clip (Free)](https://apps.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12)
-
 - Torrent Download
   - Transmission
-
 - Keep the mac awake
   - Amphetamine
-
 - Display the app's shortcuts
   - [Cheat Sheet](https://www.mediaatelier.com/CheatSheet/)
-
 - Local audio recorder that lets you save audio your mic heard in the past.
   - [Backtrack](https://www.backtrack.team/)
-
 - App updaters
   - [Latest](https://github.com/mangerlahn/latest) - checks for updates for all installed apps at once
   - MacUpdater (PAID)
-
 - Commandline like calc
   - Numi - https://numi.app/
-
 - Windows like alt-tab
   - alttab - https://alt-tab-macos.netlify.app/
-
 - multi-browser tool
   - Enables opening links in selected browsers
-
 - Workspaces management - Enables opening a predetermined list of applications
   - [bunch](https://bunchapp.co/)
   - Workspace (PAID) - Faster workspace creation
   - Workspaces Pro (PAID)- Faster workspace creation
-
 - Vim-like access - Access GUI elements with keyboard]
   - [Vim Easy motions for mac](https://github.com/dwarvesf/VimMotionApp)
-
 - Type in your iPhone using mac
   - [Keypad - Bluetooth keyboard](https://apps.apple.com/in/app/keypad-bluetooth-keyboard/id1491684442)
-
 - Run Windows apps like native apps
   - Parallels (PAID)
-
-
-
----
 # Paid List that is worthwhile to consider
 
 - Dropzone
